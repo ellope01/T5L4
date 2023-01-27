@@ -1,2 +1,0 @@
-solu=$(df-h | awk '$5 >= 41 && $5 <= 50 {print $6}')
-echo "$solu">> sol.txt
