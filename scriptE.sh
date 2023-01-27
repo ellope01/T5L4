@@ -10,5 +10,5 @@ do
     then
         `cat disc.txt | head -n$i | tail -1 >> sol.txt`
     fi
-    
+     
 done
