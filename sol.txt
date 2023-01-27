@@ -1,0 +1,6 @@
+
+#!/bin/bash
+
+folders=$(df -h | awk '$5 >= 0 && $5 <= 1 {print $6}')
+
+echo "$folders" >> sol.txt
